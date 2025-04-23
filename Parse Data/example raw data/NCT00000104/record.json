@@ -1,0 +1,175 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT00000104",
+            "orgStudyIdInfo": {
+                "id": "NCRR-M01RR00400-0587"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "M01RR000400",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/M01RR000400"
+                }
+            ],
+            "organization": {
+                "fullName": "National Center for Research Resources (NCRR)",
+                "class": "NIH"
+            },
+            "briefTitle": "Does Lead Burden Alter Neuropsychological Development?"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2003-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "studyFirstSubmitDate": "1999-11-03",
+            "studyFirstSubmitQcDate": "1999-11-03",
+            "studyFirstPostDateStruct": {
+                "date": "1999-11-04",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2005-06-23",
+            "lastUpdatePostDateStruct": {
+                "date": "2005-06-24",
+                "type": "ESTIMATED"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+                "name": "National Center for Research Resources (NCRR)",
+                "class": "NIH"
+            },
+            "collaborators": [
+                {
+                    "name": "HRSA/Maternal and Child Health Bureau",
+                    "class": "FED"
+                }
+            ]
+        },
+        "descriptionModule": {
+            "briefSummary": "Inner city children are at an increased risk for lead overburden. This in turn affects cognitive functioning. However, the underlying neuropsychological effects of lead overburden and its age-specific effects have not been well delineated. This study is part of a larger study on the effects of lead overburden on the development of attention and memory. The larger study is using a multi-model approach to study the effects of lead overburden on these effects including the event-related potential (ERP), electrophysiologic measures of attention and memory are studied. Every eight months, for a total of three sessions the subjects will complete ERP measures of attention and memory which require them to watch various computer images while wearing scalp electrodes recording from 11 sites. It is this test that we are going to be doing on CRC. There will be 30 lead overburdened children recruited from the larger study for participation in the ERP studies on CRC. These 30 children will be matched with 30 children without lead overburden. This portion of the study is important in providing an index of physiological functioning to be used along with behaviorally based measures of attention and memory, and for providing information about the different measures."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Lead Poisoning"
+            ],
+            "keywords": [
+                "lead overburden"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "designInfo": {
+                "observationalModel": "DEFINED_POPULATION",
+                "timePerspective": "OTHER"
+            }
+        },
+        "armsInterventionsModule": {
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "ERP measures of attention and memory"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Pregnant mothers of the Phillips neighborhood in Minneapolis, Minnesota. Subject recruitment will take place in local clinics which serve pregnant women and offspring",
+            "healthyVolunteers": true,
+            "sex": "FEMALE",
+            "minimumAge": "0 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "Department of Neurology 420 Delaware St. SE, Box 486 Mayo",
+                    "city": "Minneapolis",
+                    "state": "Minnesota",
+                    "zip": "55455",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 44.97997,
+                        "lon": -93.26384
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2025-01-17"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D011041",
+                    "term": "Poisoning"
+                },
+                {
+                    "id": "D007855",
+                    "term": "Lead Poisoning"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D064419",
+                    "term": "Chemically-Induced Disorders"
+                },
+                {
+                    "id": "D000075322",
+                    "term": "Heavy Metal Poisoning"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M13931",
+                    "name": "Poisoning",
+                    "asFound": "Poisoning",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10868",
+                    "name": "Lead Poisoning",
+                    "asFound": "Lead Poisoning",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M30302",
+                    "name": "Chemically-Induced Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1480",
+                    "name": "Heavy Metal Poisoning",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2680",
+                    "name": "Heavy Metal Poisoning",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC25",
+                    "name": "Substance Related Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}
