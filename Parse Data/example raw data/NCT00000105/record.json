@@ -1,0 +1,409 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT00000105",
+            "orgStudyIdInfo": {
+                "id": "2002LS032"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "MT1999-06",
+                    "type": "OTHER",
+                    "domain": "Blood and Marrow Transplantation Program"
+                }
+            ],
+            "organization": {
+                "fullName": "Masonic Cancer Center, University of Minnesota",
+                "class": "OTHER"
+            },
+            "briefTitle": "Vaccination With Tetanus and KLH to Assess Immune Responses.",
+            "officialTitle": "Vaccination With Tetanus Toxoid and Keyhole Limpet Hemocyanin (KLH) to Assess Antigen-Specific Immune Responses"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2017-11",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Replaced by another study.",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2002-07"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2012-03",
+                "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+                "date": "2012-03",
+                "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "1999-11-03",
+            "studyFirstSubmitQcDate": "1999-11-03",
+            "studyFirstPostDateStruct": {
+                "date": "1999-11-04",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2017-11-27",
+            "lastUpdatePostDateStruct": {
+                "date": "2017-11-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Masonic Cancer Center, University of Minnesota",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to learn how the immune system works in response to vaccines. We will give the vaccines to subjects who have cancer but have not had treatment, and to patients who have had chemotherapy or stem cell transplant. Some patients will get vaccines while they are on treatments which boost the immune system (like the immune stimulating drug interleukin-2 or IL-2). Although we have safely treated many patients with immune boosting drugs, we do not yet know if they improve the body's immune system to respond better to a vaccine. Some healthy volunteers will also be given the vaccines in order to serve as control subjects to get a good measure of the normal immune response. We will compare the patients and the healthy volunteers to study how their immune systems respond to the vaccines.\n\nThere are several different types of white cells in the blood. We are interested in immune cells in the blood called T-cells. These T-cells detect foreign substances in the body (like viruses and cancer cells). We are trying to learn more about how the body fights these foreign substances. Our goal is to develop cancer vaccines which would teach T-cells to detect and kill cancer cells better. We know that in healthy people the immune system effectively protects against recurrent virus infection. For example, that is why people only get \"mono\" (mononucleosis) once under normal circumstances. When the body is infected with the \"mono\" virus, the immune system remembers and prevents further infection. We are trying to use the immune system to prevent cancer relapse. To test this, we will give two vaccines which have been used to measure these immune responses. Blood samples will be studied from cancer patients and will be compared to similar samples from normal subjects.",
+            "detailedDescription": "Patients will receive each vaccine once only consisting of:\n\nArm A: Intracel KLH 1000 mcg (1 mg) without adjuvant, subcutaneous Tetanus Toxoid 0.5 ml intramuscularly (this arm closed 1/2/02).\n\nArm B: Biosyn KLH 1000 mcg (1 mg) without adjuvant, subcutaneous tetanus toxoid 0.5 ml intramuscularly (this arm closed 3/18/03).\n\nArm C: Biosyn KLH 1000 mcg (1 mg) with Montanide ISA51 (now replaced with vegetable (VG) source after 8/31/06 to increase product safety) subcutaneous Tetanus toxoid 0.5 ml intramuscularly (this arm open 3/18/03).\n\nSubjects ineligible for tetanus may still receive KLH on this protocol. This is especially true given the national shortage of tetanus vaccines. Subjects will be eligible for tetanus when it becomes available if there has been no significant change in treatment interventions or overall health status and it is within 3 months of the KLH vaccine."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "analysis of blood samples before and 4 weeks postvaccination"
+            },
+            "enrollmentInfo": {
+                "count": 112,
+                "type": "ACTUAL"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Arm A: Intracel KLH",
+                    "description": "Intracel KLH 1000 mcg (1 mg) without adjuvant, subcutaneous Tetanus Toxoid 0.5 ml intramuscularly (this arm closed 1/2/02).",
+                    "interventionNames": [
+                        "Biological: Intracel KLH Vaccine",
+                        "Biological: Tetanus toxoid"
+                    ]
+                },
+                {
+                    "label": "Arm B: Biosyn KLH",
+                    "description": "Biosyn KLH 1000 mcg (1 mg) without adjuvant, subcutaneous tetanus toxoid 0.5 ml intramuscularly (this arm closed 3/18/03).",
+                    "interventionNames": [
+                        "Biological: Biosyn KLH",
+                        "Biological: Tetanus toxoid"
+                    ]
+                },
+                {
+                    "label": "Arm C: Biosyn KLH with Montanide ISA51",
+                    "description": "Biosyn KLH 1000 mcg (1 mg) with Montanide ISA51 (replaced with vegetable (VG) source after 8/31/06) and subcutaneous Tetanus toxoid 0.5 ml intramuscularly.",
+                    "interventionNames": [
+                        "Biological: Biosyn KLH",
+                        "Drug: Montanide ISA51",
+                        "Biological: Tetanus toxoid"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BIOLOGICAL",
+                    "name": "Intracel KLH Vaccine",
+                    "description": "Intracel KLH 1000 mcg (1 mg) without adjuvant, subcutaneous Tetanus Toxoid 0.5 ml intramuscularly.",
+                    "armGroupLabels": [
+                        "Arm A: Intracel KLH"
+                    ],
+                    "otherNames": [
+                        "KLH BCI-ImmuneActivator(TM)",
+                        "IntraCel"
+                    ]
+                },
+                {
+                    "type": "BIOLOGICAL",
+                    "name": "Biosyn KLH",
+                    "description": "Biosyn KLH 1000 mcg (1 mg) without adjuvant, subcutaneous tetanus toxoid 0.5 ml intramuscularly.",
+                    "armGroupLabels": [
+                        "Arm B: Biosyn KLH",
+                        "Arm C: Biosyn KLH with Montanide ISA51"
+                    ],
+                    "otherNames": [
+                        "Immunocyanin",
+                        "IMMUCOTHEL\u00ae",
+                        "VACMUNE\u00ae"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Montanide ISA51",
+                    "description": "Emulsify the KLH with Montanide ISA-51. The KLH 1 mg vial will be reconstituted in 0.5 mL sterile water. Once solubilized, add 0.6 mL of Montanide ISA to the vial and administered contents subcutaneously.",
+                    "armGroupLabels": [
+                        "Arm C: Biosyn KLH with Montanide ISA51"
+                    ],
+                    "otherNames": [
+                        "Montanide ISA 51 VG"
+                    ]
+                },
+                {
+                    "type": "BIOLOGICAL",
+                    "name": "Tetanus toxoid",
+                    "description": "Tetanus Toxoid Adsorbed, Aluminum Phosphate Adsorbed, PUROGENATED\u00ae (TT), is a sterile preparation of refined tetanus toxoid for intramuscular use only.",
+                    "armGroupLabels": [
+                        "Arm A: Intracel KLH",
+                        "Arm B: Biosyn KLH",
+                        "Arm C: Biosyn KLH with Montanide ISA51"
+                    ],
+                    "otherNames": [
+                        "PUROGENATED\u00ae"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "To assess whether patients can mediate an appropriate immune response KLH",
+                    "timeFrame": "Week 4 post vaccination"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Tetanus Response",
+                    "timeFrame": "Throughout study"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must have a diagnosis of cancer of any histologic type.\n* Patients must have a Karnofsky performance status great or equal to 70%.\n* Patients must have an expected survival for at least four months.\n* Normal healthy volunteers to serve as control for this study.\n* All patients must sign informed consent approved by the Committee on the Use of Human Subjects at the University of Minnesota\n\nExclusion Criteria:\n\n* Pregnant or lactating women. Females of child-bearing potential will be asked to take a pregnancy test before receiving vaccines.\n* Serious intercurrent medical illnesses which would interfere with the ability of the patient to carry out the follow-up monitoring program.\n* Immunization should not be administered during the course of any febrile illness or acute infection.\n* Hypersensitivity to any component of the vaccine, including Thimerosal, a mercury derivative.\n* The occurrence of any type of neurologic symptoms to tetanus vaccine in th past.\n* Patients with a history of seafood allergy are excluded from receiving KLH.\n* Subjects who have had tetanus toxoid within the last 7 years are not eligible for tetanus vaccine component of this protocol.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "* Normal volunteers\n* Patients with Cancer (breast, melanoma, hematologic)\n* Transplant patients (umbilical cord blood transplant, autologous transplant)\n* Patients receiving other cancer vaccines",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Jeffrey Miller, MD",
+                    "affiliation": "Masonic Cancer Center, University of Minnesota",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Division of Hematology, Oncology, and Transplantation 420 Delaware St., SE, Box 806 Mayo",
+                    "city": "Minneapolis",
+                    "state": "Minnesota",
+                    "zip": "55455",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 44.97997,
+                        "lon": -93.26384
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2025-01-17"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D013742",
+                    "term": "Tetanus"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D003015",
+                    "term": "Clostridium Infections"
+                },
+                {
+                    "id": "D016908",
+                    "term": "Gram-Positive Bacterial Infections"
+                },
+                {
+                    "id": "D001424",
+                    "term": "Bacterial Infections"
+                },
+                {
+                    "id": "D001423",
+                    "term": "Bacterial Infections and Mycoses"
+                },
+                {
+                    "id": "D007239",
+                    "term": "Infections"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16511",
+                    "name": "Tetanus",
+                    "asFound": "Tetanus",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16515",
+                    "name": "Tetany",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6247",
+                    "name": "Clostridium Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4722",
+                    "name": "Bacterial Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19252",
+                    "name": "Gram-Positive Bacterial Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12136",
+                    "name": "Mycoses",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4721",
+                    "name": "Bacterial Infections and Mycoses",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5607",
+                    "name": "Tetanus",
+                    "asFound": "Tetanus",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "C000712049",
+                    "term": "Monatide (IMS 3015)"
+                },
+                {
+                    "id": "D005620",
+                    "term": "Freund's Adjuvant"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000276",
+                    "term": "Adjuvants, Immunologic"
+                },
+                {
+                    "id": "D007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M17360",
+                    "name": "Vaccines",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M254598",
+                    "name": "Monatide (IMS 3015)",
+                    "asFound": "Dosage form",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M261245",
+                    "name": "Keyhole-limpet hemocyanin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M225346",
+                    "name": "Aluminum phosphate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8740",
+                    "name": "Freund's Adjuvant",
+                    "asFound": "Fundus",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M3628",
+                    "name": "Adjuvants, Immunologic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}
