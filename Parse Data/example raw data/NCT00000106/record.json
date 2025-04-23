@@ -1,0 +1,187 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT00000106",
+            "orgStudyIdInfo": {
+                "id": "NCRR-M01RR03186-9943"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "M01RR003186",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/M01RR003186"
+                }
+            ],
+            "organization": {
+                "fullName": "National Center for Research Resources (NCRR)",
+                "class": "NIH"
+            },
+            "briefTitle": "41.8 Degree Centigrade Whole Body Hyperthermia for the Treatment of Rheumatoid Diseases"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2000-11",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "studyFirstSubmitDate": "2000-01-18",
+            "studyFirstSubmitQcDate": "2000-01-18",
+            "studyFirstPostDateStruct": {
+                "date": "2000-01-19",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2005-06-23",
+            "lastUpdatePostDateStruct": {
+                "date": "2005-06-24",
+                "type": "ESTIMATED"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+                "name": "National Center for Research Resources (NCRR)",
+                "class": "NIH"
+            }
+        },
+        "descriptionModule": {
+            "briefSummary": "Recently a non-toxic system for whole body hyperthermia (WBH) used at the University of Wisconsin has been shown to induce soluble tumor necrosis factor-receptor (sTNF-R) I and II when patients are heated systemically to 41.8C for 60 minutes. This observation might provide a biological basis for the therapeutic application of WBH to rheumatoid diseases, for which there is a positive anecdotal clinical experience. Inherent in the hypothesis which is the basis for this protocol is the concept that the induction of TNF receptors by WBH may induce a remission in patients with active rheumatoid arthritis. Beyond clinical response the biological endpoint for this investigation includes cytokine levels, TNF levels, sTNF-R levels and changes in cellular TNF receptors."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Rheumatic Diseases"
+            ],
+            "keywords": [
+                "Rheumatoid Diseases"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT"
+            }
+        },
+        "armsInterventionsModule": {
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Whole body hyperthermia unit"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients are required to meet the criteria of the American College of Rheumatology (ACR)for rheumatoid arthritis.\n* Patients should be in functional class II, or III according to the criteria of the ACR.\n* All candidates must be unsuccessfully treated (lack of efficacy) with at least two of the following disease-modifying antirheumatic drugs: hydroxychloroquinine, oral or injectable gold, methotrexate, azathioprine, penicillamine, and sulfasalazine.\n* Patients receiving nonsteroidal antiinflammatory drugs (NSAIDs), corticosteroids (\\<= 10 mg per day), or both are eligible if the dosage has been stable for at least four weeks before treatment and remained so throughout the study and follow-up period (the use of narcotics for pain flares is allowed).\n* The necessary degree of disease activity at enrollment should be confirmed by a finding of 10 or more swollen joints, 12 or more tender joints, and one of the following two criteria: a Westergren erythrocyte sedimentation rate of at least 28 mm per hour or a serum C-reactive protein level of more than 2.0 mg per deciliter; or morning stiffness for at least 60 minutes.\n* Patients must have adequate bone marrow function, adequate liver function, adequate renal function, calcium and electrolytes.\n* Patients must have a dobutamine stress ECHO, or exercise cardiac MUGA, or exercise ECHO scan prior to entry and must fulfill certain criteria to be eligible. The spirit of the criteria are to rule out organic heart disease.\n* Respiratory status: Patients who have FEV1 of \\>= 60% of predicted, as well as a maximum voluntary volume (MVV) of \\>= 60% of predicted, and blood gases with a PO2 of \\>= 60 or oxygen saturation of \\>= 90% are eligible.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "K4/666 CSC 600 Highland Av",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53792",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2025-01-17"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D012216",
+                    "term": "Rheumatic Diseases"
+                },
+                {
+                    "id": "D003095",
+                    "term": "Collagen Diseases"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D009140",
+                    "term": "Musculoskeletal Diseases"
+                },
+                {
+                    "id": "D003240",
+                    "term": "Connective Tissue Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M15045",
+                    "name": "Rheumatic Diseases",
+                    "asFound": "Rheumatic Diseases",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6323",
+                    "name": "Collagen Diseases",
+                    "asFound": "Rheumatic Diseases",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8464",
+                    "name": "Fever",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2454",
+                    "name": "Hyperthermia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12097",
+                    "name": "Musculoskeletal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6464",
+                    "name": "Connective Tissue Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC05",
+                    "name": "Musculoskeletal Diseases"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}
