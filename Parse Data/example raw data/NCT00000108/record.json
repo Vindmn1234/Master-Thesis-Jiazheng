@@ -1,0 +1,182 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT00000108",
+            "orgStudyIdInfo": {
+                "id": "NCRR-M01RR00042-1647"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "M01RR000042",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/M01RR000042"
+                }
+            ],
+            "organization": {
+                "fullName": "National Center for Research Resources (NCRR)",
+                "class": "NIH"
+            },
+            "briefTitle": "Effects of Training Intensity on the CHD Risk Factors in Postmenopausal Women"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2003-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "studyFirstSubmitDate": "2000-01-18",
+            "studyFirstSubmitQcDate": "2000-01-18",
+            "studyFirstPostDateStruct": {
+                "date": "2000-01-19",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2005-06-23",
+            "lastUpdatePostDateStruct": {
+                "date": "2005-06-24",
+                "type": "ESTIMATED"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+                "name": "National Center for Research Resources (NCRR)",
+                "class": "NIH"
+            }
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this research is to find out whether training at different exercise intensities reduces the risk of developing cardiovascular disease (CVD) to a different extent. Heart attacks and stroke are the leading cause of death in older women. Reduced variability of the heart rate and increased dips and swings in blood pressure are risks factors that predict the chance of developing CVD as are increased levels of clotting protein fibrinogen and plasminogen activator inhibitor 1, and high levels of LDL-cholesterol (\\>160mg/dl). We will be measuring all of these risk factors and any changes in your body fat level before you start training and after 15 and 30 weeks of training in the form of walking. At the present time the effects of exercise intensity on these factors are not well understood. This study will add to the basic understanding of these issues and allow us to recommend to postmenopausal women optimal exercise intensities to lose body fat and reduce the risk of developing CVD."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cardiovascular Diseases",
+                "Coronary Disease"
+            ],
+            "keywords": [
+                "exercise"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "PREVENTION"
+            }
+        },
+        "armsInterventionsModule": {
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Exercise"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Postmenopausal and preferably on hormone replacement therapy\n* In good general health\n* Have a body mass index (BMI, weight in kg/height in m2) of between 25 and 40\n* Exercise less than 20 min/day two days a week",
+            "healthyVolunteers": true,
+            "sex": "FEMALE",
+            "minimumAge": "50 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "3060G Central Campus Recreation Bldg 401 Washtenaw Ave.",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109-2214",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2025-01-17"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D003327",
+                    "term": "Coronary Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D017202",
+                    "term": "Myocardial Ischemia"
+                },
+                {
+                    "id": "D006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D014652",
+                    "term": "Vascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M6546",
+                    "name": "Coronary Artery Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6549",
+                    "name": "Coronary Disease",
+                    "asFound": "Coronary Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19506",
+                    "name": "Myocardial Ischemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10543",
+                    "name": "Ischemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}
