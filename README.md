@@ -7,21 +7,15 @@ This repository contains the full codebase, data, and documentation for my maste
 📘 Overview
 
 This project introduces a dual-task machine learning framework to predict:
-
-Clinical Trial Completion — whether a trial reaches its intended completion or is prematurely terminated.
-
-Clinical Trial Success — whether a trial meets its primary endpoints, inferred via LLM-based analysis of associated publications.
-
+1. Clinical Trial Completion — whether a trial reaches its intended completion or is prematurely terminated.
+2. Clinical Trial Success — whether a trial meets its primary endpoints, inferred via LLM-based analysis of associated publications.
 We leverage structured metadata from ClinicalTrials.gov and unstructured text (trial descriptions and publication abstracts), enhanced by modern NLP techniques (e.g., BioLinkBERT and GPT-4o-mini) to build predictive models.
 
 🧠 Key Contributions
-
-Data Integration: Merged data from ClinicalTrials.gov API and PubMed for 500K+ trials.
-
+Data Retrival: 
+Data Integration: Merged data from ClinicalTrials.gov API and PubMed for 120K+ trials.
 Dual-Prediction Pipeline:
-
 Operational Completion using XGBoost, Random Forest, and Dual-Tower Neural Networks.
-
 Scientific Success via GPT-4-based label generation and predictive modeling.
 
 LLM Labeling Pipeline: Designed a two-step GPT-4o-mini pipeline to classify publication outcomes as Positive / Negative / Unknown.
@@ -31,7 +25,6 @@ Embedding Integration: Compared tabular-only models with embedding-enhanced mode
 Interpretability: Used SHAP to interpret model predictions and highlight key drivers (e.g., enrollment size, sponsor type, trial design).
 
 🗂️ Repository Structure
-
 .
 ├── Model training/                  # Scripts and notebooks for model training (e.g., XGBoost, Random Forest, Neural Network)
 ├── Parse Data/                     # Scripts for flattening, cleaning, and extracting ClinicalTrials.gov and PubMed data
@@ -44,43 +37,31 @@ Interpretability: Used SHAP to interpret model predictions and highlight key dri
 
 🔧 Technologies Used
 
-Python, pandas, scikit-learn, XGBoost, transformers
-
-BioLinkBERT, PubMedBERT, GPT-4o-mini
-
-SHAP for model interpretation
-
-ClinicalTrials.gov API, PubMed API
+Python, pandas, scikit-learn, XGBoost, neural network, GPT-4 API, BioLinkBERT, Google colab,
+ClinicalTrials.gov API, PubMed API, Mesh API
 
 📊 Highlights from Results
+- **Trial Completion Prediction:**
+  - XGBoost consistently outperformed SVM, Random Forest, and Neural Networks across all class balancing strategies.
+  - Under a 1:1.5 downsampling ratio, XGBoost with BioLinkBERT embeddings achieved an AUC of 0.894, accuracy of 82.8%, and balanced F1 scores for both completed and non-completed classes.
+  - Incorporating BioLinkBERT embeddings improved AUC by approximately 1%, especially enhancing detection of non-completed trials.
+  - Key predictors included enrollment size, trial duration, intervention model, number of facilities, and sponsor type.
+    
+- **Trial Outcome Prediction:
+  - GPT-4o-mini achieved 94% accuracy in labeling publication outcomes when benchmarked against human annotations.
+  - XGBoost trained on structured features achieved an AUC of 0.717 and accuracy of 66.1%.
+  - Adding trial description embeddings did not improve performance, suggesting trial descriptions are more relevant to operational feasibility than outcome success.
 
-Trial Completion Prediction:
-
-XGBoost with BioLinkBERT embeddings outperformed tabular-only models by ~1% AUC.
-
-Enrollment size, trial duration, sponsor type, and intervention model were top predictors.
-
-Trial Outcome Prediction:
-
-GPT-4o-mini achieved 94% accuracy vs. human-annotated publications.
-
-Structured features showed moderate predictive power (AUC ~0.72 with XGBoost).
-
-Stratified by phase, Phase 3 trials had the most difficult prediction due to outcome complexity.
-
+Performance varied slightly by trial phase, with Phase 2 and 3 showing modestly higher predictive accuracy than Phase 1.
 📌 Limitations & Future Work
-
 Publication bias and incomplete linkage between trials and publications may affect label accuracy.
-
 Future directions: analyze full-text publications, include adverse event data, and apply retrieval-augmented generation (RAG) for richer feature extraction.
 
 📌 Citation
 
 If you use any part of this work, please cite:
-
 Jiazheng Li (2025). Predicting Clinical Trial Completion and Success Using Machine Learning and Natural Language Processing. Master’s Thesis, University of Chicago.PDF in this repo
 
 📬 Contact
-
-For questions or collaborations, feel free to reach out via GitHub or email: jiazhengli@uchicago.edu
+For questions or collaborations, feel free to reach out via GitHub or email: jiazheng123@uchicago.edu
 
