@@ -24,17 +24,18 @@ Embedding Integration: Compared tabular-only models with embedding-enhanced mode
 
 Interpretability: Used SHAP to interpret model predictions and highlight key drivers (e.g., enrollment size, sponsor type, trial design).
 
-🗂️ Repository Structure
-.
-├── Model training/                  # Scripts and notebooks for model training (e.g., XGBoost, Random Forest, Neural Network)
-├── Parse Data/                     # Scripts for flattening, cleaning, and extracting ClinicalTrials.gov and PubMed data
-├── feature_engineering_completion.ipynb    # Completion task: feature engineering and modeling
-├── feature_engineering_success.ipynb       # Outcome task: feature engineering and modeling
-├── link_pubmed.ipynb              # Linking trials with PubMed abstracts using PubMed API
-├── example data.xlsx              # Sample trial-level data used in modeling
-├── thesis.pdf                     # Full thesis write-up (University of Chicago, 2025)
-└── README.md                      # This file
-
+- **🗂️ Repository Structure**  
+  ```
+  .
+  ├── Model training/                  # Scripts and notebooks for model training (e.g., XGBoost, Random Forest, Neural Network)
+  ├── Parse Data/                      # Scripts for flattening, cleaning, and extracting ClinicalTrials.gov and PubMed data
+  ├── feature_engineering_completion.ipynb    # Completion task: feature engineering and modeling
+  ├── feature_engineering_success.ipynb       # Outcome task: feature engineering and modeling
+  ├── link_pubmed.ipynb               # Linking trials with PubMed abstracts using PubMed API
+  ├── example data.xlsx               # Sample trial-level (raw) data
+  ├── thesis.pdf                      # Full thesis write-up (University of Chicago, 2025)
+  └── README.md                       # This file
+  ```
 🔧 Technologies Used
 
 Python, pandas, scikit-learn, XGBoost, neural network, GPT-4 API, BioLinkBERT, Google colab,
