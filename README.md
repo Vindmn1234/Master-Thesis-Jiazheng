@@ -42,8 +42,8 @@ We leverage structured metadata from ClinicalTrials.gov and unstructured text (t
   ```
 🔧 Technologies Used
 
-Python, pandas, scikit-learn, XGBoost, neural network, GPT-4 API, BioLinkBERT, Google colab,
-ClinicalTrials.gov API, PubMed API, Mesh API
+Python, pandas, scikit-learn, XGBoost, pytorch, GPT-4 API, BioLinkBERT, Google colab, PCA, 
+ClinicalTrials.gov API, PubMed API, Mesh API, xml, json
 
 📊 Highlights from Results
 - **Trial Completion Prediction:**
@@ -56,11 +56,12 @@ ClinicalTrials.gov API, PubMed API, Mesh API
   - GPT-4o-mini achieved 94% accuracy in labeling publication outcomes when benchmarked against human annotations.
   - XGBoost trained on structured features achieved an AUC of 0.717 and accuracy of 66.1%.
   - Adding trial description embeddings did not improve performance, suggesting trial descriptions are more relevant to operational feasibility than outcome success.
-
-Performance varied slightly by trial phase, with Phase 2 and 3 showing modestly higher predictive accuracy than Phase 1.
+  - Performance varied slightly by trial phase, with Phase 2 and 3 showing modestly higher predictive accuracy than Phase 1.
+    
 📌 Limitations & Future Work
-Publication bias and incomplete linkage between trials and publications may affect label accuracy.
-Future directions: analyze full-text publications, include adverse event data, and apply retrieval-augmented generation (RAG) for richer feature extraction.
+- Include important features(number of patients at risk, adverse events, death) from a more well-structured database(AACT).
+- Publication bias and incomplete linkage between trials and publications may affect label accuracy.
+- Future directions: analyze full-text publications, clinical trial interim reports(if possible), and apply retrieval-augmented generation (RAG) for richer feature extraction(google news, google scholar, etc.).
 
 📌 Citation
 
