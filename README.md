@@ -6,23 +6,27 @@ This repository contains the full codebase, data, and documentation for my maste
 
 📘 Overview
 
-This project introduces a dual-task machine learning framework to predict:
+- ** This project introduces a dual-task machine learning framework to predict: **
 1. Clinical Trial Completion — whether a trial reaches its intended completion or is prematurely terminated.
 2. Clinical Trial Success — whether a trial meets its primary endpoints, inferred via LLM-based analysis of associated publications.
 We leverage structured metadata from ClinicalTrials.gov and unstructured text (trial descriptions and publication abstracts), enhanced by modern NLP techniques (e.g., BioLinkBERT and GPT-4o-mini) to build predictive models.
 
-🧠 Key Contributions
-Data Retrival: 
-Data Integration: Merged data from ClinicalTrials.gov API and PubMed for 120K+ trials.
-Dual-Prediction Pipeline:
-Operational Completion using XGBoost, Random Forest, and Dual-Tower Neural Networks.
-Scientific Success via GPT-4-based label generation and predictive modeling.
-
-LLM Labeling Pipeline: Designed a two-step GPT-4o-mini pipeline to classify publication outcomes as Positive / Negative / Unknown.
-
-Embedding Integration: Compared tabular-only models with embedding-enhanced models using BioLinkBERT and PCA.
-
-Interpretability: Used SHAP to interpret model predictions and highlight key drivers (e.g., enrollment size, sponsor type, trial design).
+- **🧠 Key Contributions**  
+  - **Data Retrieval:**  
+    - Effectively and scalably retrieved the entire ClinicalTrials.gov dataset (**500K+ clinical trials**) using the public API.  
+  - **Data Integration:**  
+    - Merged data from ClinicalTrials.gov API and PubMed for **120K+ trials**.  
+  - **Dual-Prediction Pipeline:**  
+    - **Operational Completion:**  
+      - Trained XGBoost, Random Forest, and Dual-Tower Neural Networks on both **structured features** and **unstructured trial descriptions** (embedded via BioLinkBERT).  
+    - **Scientific Success:**  
+      - Implemented **GPT-4-based label generation** and predictive modeling.  
+  - **LLM Labeling Pipeline:**  
+    - Designed a **two-step GPT-4o-mini pipeline** to classify publication outcomes as *Positive* / *Negative* / *Unknown*.  
+  - **Embedding Integration:**  
+    - Compared **tabular-only models** vs. **embedding-enhanced models** (BioLinkBERT + PCA).  
+  - **Interpretability:**  
+    - Used **SHAP** to interpret predictions, highlighting key drivers (enrollment size, sponsor type, trial design).  
 
 - **🗂️ Repository Structure**  
   ```
