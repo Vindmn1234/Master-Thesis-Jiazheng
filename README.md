@@ -1,4 +1,4 @@
-# Master Thesis:Predicting Clinical Trial Completion and Success using Machine Learning and NLP
+# Master Thesis: Predicting Clinical Trial Completion and Success using Machine Learning and NLP
 
 This repository contains the full codebase, data, and documentation for my master's thesis project at the University of Chicago, titled:
 
