@@ -6,7 +6,7 @@ This repository contains the full codebase, data, and documentation for my maste
 
 📘 Overview
 
-- ** This project introduces a dual-task machine learning framework to predict: **
+** This project introduces a dual-task machine learning framework to predict: **
 1. Clinical Trial Completion — whether a trial reaches its intended completion or is prematurely terminated.
 2. Clinical Trial Success — whether a trial meets its primary endpoints, inferred via LLM-based analysis of associated publications.
 We leverage structured metadata from ClinicalTrials.gov and unstructured text (trial descriptions and publication abstracts), enhanced by modern NLP techniques (e.g., BioLinkBERT and GPT-4o-mini) to build predictive models.
