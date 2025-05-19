@@ -2,7 +2,7 @@
 
 This repository contains the full codebase, data, and documentation for my master's thesis project at the University of Chicago, titled:
 
-“Predicting Clinical Trial Completion and Success Using Machine Learning and Natural Language Processing”Author: Jiazheng Li | May 2025 | Faculty Advisor: Prof. Yuan Ji
+“Predicting Clinical Trial Completion and Success Using Machine Learning and Natural Language Processing”Author: Jiazheng Li | May 2025 | Faculty Advisor: Prof. Yuan Ji, Fabricio Vasselei
 
 📘 Overview
 
